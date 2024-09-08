@@ -1,0 +1,161 @@
+{
+  "intents": [
+      {
+          "tag": "greeting",
+          "patterns": ["Hi", "Hello", "How are you?", "Is anyone there?"],
+          "responses": ["Hello!", "Hi there!", "How can I assist you?", "Greetings! How can I help?"]
+      },
+      {
+          "tag": "goodbye",
+          "patterns": ["Bye", "See you later", "Goodbye"],
+          "responses": ["Goodbye!", "Have a nice day!", "See you soon!", "Take care!"]
+      },
+      {
+          "tag": "connect_wallet",
+          "patterns": [
+            "Connect my wallet",
+            "Link my Coinbase wallet",
+            "Connect wallet",
+            "Link wallet"
+          ],
+          "responses": ["Connecting to your wallet...", "Let me connect your wallet.", "Your wallet is being linked."]
+      },
+      {
+          "tag": "check_balance",
+          "patterns": [
+            "Check my balance",
+            "What is my balance?",
+            "Show my balance",
+            "Balance"
+          ],
+          "responses": ["Checking your balance...", "Let me fetch your balance.", "Your balance will be displayed shortly."]
+      },
+      {
+          "tag": "predict_transactions",
+          "patterns": [
+            "Predict my transactions",
+            "What will my transactions look like?",
+            "Forecast transactions",
+            "Predict future transactions"
+          ],
+          "responses": ["Predicting your transactions...", "Fetching future transaction predictions...", "Analyzing your transaction patterns."]
+      },
+      {
+          "tag": "show_transactions",
+          "patterns": [
+            "Show my transactions",
+            "Display my transactions",
+            "List my transactions",
+            "Transaction history"
+          ],
+          "responses": ["Here is your transaction history.", "Listing your recent transactions.", "Displaying all your transactions."]
+      },
+      {
+          "tag": "show_spending",
+          "patterns": [
+            "Show my spending",
+            "Display my spending",
+            "List my spending",
+            "Spending history"
+          ],
+          "responses": ["Here is a summary of your spending.", "Displaying your spending history.", "Listing your spending transactions."]
+      },
+      {
+          "tag": "show_income",
+          "patterns": [
+            "Show my income",
+            "Display my income",
+            "List my income",
+            "Income history"
+          ],
+          "responses": ["Here is your income history.", "Displaying your income details.", "Listing your income sources."]
+      },
+      {
+          "tag": "show_savings",
+          "patterns": [
+            "Show my savings",
+            "Display my savings",
+            "List my savings",
+            "Savings history"
+          ],
+          "responses": ["Here is a summary of your savings.", "Displaying your savings details.", "Listing your savings accounts."]
+      },
+      {
+          "tag": "show_investments",
+          "patterns": [
+            "Show my investments",
+            "Display my investments",
+            "List my investments",
+            "Investment history"
+          ],
+          "responses": ["Here is a summary of your investments.", "Displaying your investment portfolio.", "Listing your investment details."]
+      },
+      {
+          "tag": "show_debts",
+          "patterns": [
+            "Show my debts",
+            "Display my debts",
+            "List my debts",
+            "Debt history"
+          ],
+          "responses": ["Here is your debt history.", "Displaying your outstanding debts.", "Listing your debts."]
+      },
+      {
+          "tag": "show_net_worth",
+          "patterns": [
+            "Show my net worth",
+            "Display my net worth",
+            "List my net worth",
+            "Net worth history"
+          ],
+          "responses": ["Here is your net worth summary.", "Displaying your net worth.", "Listing your net worth details."]
+      },
+      {
+          "tag": "show_budget",
+          "patterns": [
+            "Show my budget",
+            "Display my budget",
+            "List my budget",
+            "Budget history"
+          ],
+          "responses": ["Here is your budget summary.", "Displaying your budget details.", "Listing your budget categories."]
+      },
+      {
+          "tag": "show_trends",
+          "patterns": [
+            "Show my trends",
+            "Display my trends",
+            "List my trends",
+            "Trend history"
+          ],
+          "responses": ["Here is a summary of your financial trends.", "Displaying trends in your spending and income.", "Listing your financial trends."]
+      },
+      {
+          "tag": "show_forecast",
+          "patterns": [
+            "Show my forecast",
+            "Display my forecast",
+            "List my forecast",
+            "Forecast history"
+          ],
+          "responses": ["Here is a financial forecast.", "Displaying your financial projections.", "Listing your financial forecasts."]
+      },
+      {
+          "tag": "show_summary",
+          "patterns": [
+            "Show my summary",
+            "Display my summary",
+            "List my summary",
+            "Summary history"
+          ],
+          "responses": ["Here is your financial summary.", "Displaying an overview of your finances.", "Listing your financial summary."]
+      },
+      {
+          "tag": "show_all",
+          "patterns": [
+            "Show all"
+          ],
+          "responses": ["Displaying all available financial data.", "Listing all your financial information."]
+      }
+  ]
+}

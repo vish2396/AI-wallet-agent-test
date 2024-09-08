@@ -1,0 +1,8 @@
+Backend/models
+Backend/config.py
+Backend/__pycache__
+Backend/testbot
+
+Frontend/node_modules
+Frontend/.next
+Frontend/package-lock.json
